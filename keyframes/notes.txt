@@ -1,0 +1,6 @@
+movement file format:
+filename: e.g.walk_forward_normal.pose
+
+each line in file:
+x=number of servos, y=servo angle (absolute for now, degrees later)
+x [y y y y y y y y y y y y y y y y y y y y ...]
