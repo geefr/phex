@@ -1,8 +1,8 @@
 TARGET		= keyframes
 OBJS		= keyframes.o phex_pose.o
 SRCS        = keyframes.c phex_pose/phex_pose.cpp
-INCLUDEDIRS	+= -I./ -I../include -I./phex_pose
-LIBDIRS		+= -L../lib
+INCLUDEDIRS	+= -I./ -I../libdxl -I./phex_pose
+LIBDIRS		+= -L../libdxl
 CFLAGS		= $(INCLUDEDIRS) -Wall -DEBUG
 LDFLAGS		= $(LIBDIRS) -lm -ldxl
 
